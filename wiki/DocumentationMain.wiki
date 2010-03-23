@@ -4,10 +4,10 @@ This user guide is to help transit agencies utilize Transit Data Feeder, an open
 
 = Functions of the application =
  * [Overview]
- * Getting started
- * Adding and managing data
-  ** Stops
-  ** Service calendar
-  ** Holiday exceptions
-  ** Routes and timetables
-  ** Fares
+ * [Getting started]
+ * [Adding and managing data]
+  ** [Stops]
+  ** [Service calendar]
+  ** [Holiday exceptions]
+  ** [Routes and timetables]
+  ** [Fares]
