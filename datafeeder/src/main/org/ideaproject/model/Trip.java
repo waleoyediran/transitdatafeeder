@@ -294,7 +294,7 @@ public class Trip extends AbstractLastModifiedEntity implements java.io.Serializ
 	public Date getFirstStopTime() {
 		if (basedOn != null) {
 			return tripStartTime;
-		} else if (stopTimes != null){
+		} else if (stopTimes != null && !stopTimes.isEmpty()){
 			return stopTimes.get(0).getArrivalTime();
 		}
 		return new Date(0);
