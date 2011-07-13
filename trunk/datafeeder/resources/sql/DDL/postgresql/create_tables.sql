@@ -543,6 +543,8 @@ CREATE TABLE location_type (
 
 
 ALTER TABLE idea.location_type OWNER TO ideauser;
+INSERT INTO idea.location_type(location_type_id, location_type_description) VALUES(0, 'stop');
+INSERT INTO idea.location_type(location_type_id, location_type_description) VALUES(1, 'station');
 
 --
 -- Name: location_type_location_type_id_seq; Type: SEQUENCE; Schema: idea; Owner: ideauser
